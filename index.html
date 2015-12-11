@@ -1,19 +1,203 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="ja">
-  <head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" conntent="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="takosan,sako,takuma">
+        <meta name="description" content="takosanのプロフィールページです">
+        <title>迫琢磨／プロフィール</title>
+         <!-- BootstrapのCss読み込み -->
+         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+         <!-- Bootstrap読み込み -->
+         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+         <!-- BootstrapのJS読み込み -->
+         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+         <style>
+         .haikei {
+             background-image: url("ohana.jpg");
+             background-position: center center;
+             background-size: cover;
+             background-repeat: no-repeat;
+             margin-bottom: 100;
+             padding-bottom: 100;
+             
+         }
+         
+         
+         
+         .logo {
+             max-width: 240px;
+             border: 5px solid #111;
+             margin: 70px 70px;
+             text-align: center;
+             border-radius: 50%;
+         }
+         
+         .logo2{
+             max-width: 80px;
+             text-align: 30px 50px;
+         }
+         
+         .container {
+             max-width: 800px;
+             margin: -100px aut 0;
+             background-color: #ccc;
+             border: 5px ;
+         }
+        
+         
+             body {
+                 font-size: 15px;
+             }
+             
+             .profile0 {
+                 margin-bottom: 0;
+                 padding-bottom: 0;
+                 text-align: center;
+                 text-shadow: 2px 2px 0px #222;
+             }
+             
+             .profile {
+                 margin-bottom: 0;
+                 text-align: center;
+             }
+             
+             .textt {
+                 text-align: right;
+             }
+             
+             .texttr {
+                 text-align: center;
+                 padding: 30px;
+             }
+             
+             .mark {
+                 padding: 30px;
+             }
+             
+             footer {
+                 border-top: 1px solid#e7e7e7;
+                 background-color: #f8f8f8;
+                 text-align: center;
+                 
+             }
+             
+             .copyright {
+                 padding: 20px 0;
+                 font-size: 12px;
+                 color: #666;
+                 
+             }
+             
+             .kurick{
+                 color: #333;
+             }
+             
+             
+             
+             @media (max-width: 768px) {
+                 body{
+                     font-size: 13px;
+                 }
+                 h3 {
+                     font-size: 20px;
+                 }
+                 
+                 .panel-title{
+                     font-size: 14px;
+                 }
+             }
+      
+             
+             
+         </style>
+         <header>
+         <nav class="navbar navbar-default">
+             <div class="container-fluid">
+                 <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                         <span class="sr-only">Toggle navigation</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                     </button>
+                     <a class="navbar-brand" href="#">迫　琢磨</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="site-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#">TOP</a></li>
+                      <li><a href="#">各局情報</a></li>
+                      <li class="active"><a href="#">局員紹介</a></li>
+                      <li><a href="https://github.com/takosan1">GitHub</a></li>
+                    </ul>
+                  </div>
+               </div>
+         </nav>
+         </header>
+    </head>
+    <body>
+    <div class="profile0">
+        <h1>Profile</h1>
+    </div>
+    <div class="haikei">
+        <div class="row">
+        <div class="col-sm-4">
+                <img class="logo" src="takosan.jpg" alt="本人画像" />
+        </div>
+        <div class="col-sm-8"></div>
+        </div>
+        </div>
     
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+    
+    <div class="container">
+        <div class="container">
+  <table class="table">
+    <tbody>
+      <tr>
+        <th scope="row">氏名</th>
+        <td>迫　琢磨</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <th scope="row">生年月日</th>
+        <td>1996/04/24</td>
+      </tr>
+      <tr>
+        <th scope="row">血液型</th>
+        <td>o型</td>
+      </tr>
+      <tr>
+        <th scope="row">出身地</th>
+        <td>京都</td>
+      </tr>
+      <tr>
+        <th scope="row">局</th>
+        <td>常任</td>
+      </tr>
+      <tr>
+        <th scope="row">好きな言葉</th>
+        <td>我　事において　後悔せず</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+    </div>
+    <br>
+    <br>
+    <div class="profile ">
+        
+    <a href="#"><img class="logo2" src="tel.jpg" alt="tel" /><p class="kurick">TEL</p></a>
+    
+    
+    <a href="#"><img class="logo2" src="mail.jpg" alt="mail" /><p class="kurick">MAIL</p></a>
+    
+    
+    <a href="#"><img class="logo2" src="hatena.jpg" alt="hatena" /><p class="kurick">QESTION</p></a>
+    </div>
+    <footer>
+        <div class="copyright">©　takosan Inc.</div>
+    </footer>
+    </body>
 </html>
